@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+/*main index*/
+.imagenIndex {
+    width: 99vw;
+    height: 85vh;
+    display: flex;
+    align-items: end;
+    background: url(../assets/img/ceramica.jpg);
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.textoIndex {
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+
+.textoIndexProd {
+    font-size: 3rem;
+}
+
+.botonIndex {
+    text-align: center;
+}
+
+/*main tienda*/
+.mainTienda {
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    width: 405px;
+    height: 600px;
+}
+
+.botonTienda {
+    text-align: center;
+}
+
+.sectionTienda {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*main dormitorio y bano*/
+.dorAgregar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.dorCant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*main living comedor*/
+.livAgregar {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.livCant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*main contacto*/
+.flexContac {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rrssFooter {
+    margin-left: 10px;
+}
+
+.footerMt h1 {
+    margin-top: 41px;
+}
+
+/*vista mobile index*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .textoIndex {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .textoIndexProd {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista tablet index*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .textoIndex {
+        text-align: center;
+    }
+
+    .textoIndexProd {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile tienda*/
+@media screen and (min-width: 320px) and (max-width: 940px) {
+    .card {
+        margin: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile living comedor*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista tablet living comedor*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile dormitorio y baño*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista tablet dormitorio y baño*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile Acerca de*/
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*vista mobile Contacto*/
+@media screen and (min-width: 320px) and (max-width: 940px) {
+    .inputContact {
+        margin-left: 25%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
