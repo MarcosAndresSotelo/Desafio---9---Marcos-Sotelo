@@ -22,7 +22,12 @@
 
 
 /*vista tablet index*/
-@media screen and (min-width: 720px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1260px) {
+    .mediaNav {
+        display: flex;
+        flex-direction: column
+    }
+
     .textoIndex {
         text-align: center;
     }
@@ -42,19 +47,6 @@
     .card {
         margin: 10px;
     }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/*vista mobile living comedor*/
-@media screen and (min-width: 320px) and (max-width: 720px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 /*vista tablet living comedor*/
@@ -65,38 +57,9 @@
     }
 }
 
-/*vista mobile dormitorio y baño*/
-@media screen and (min-width: 320px) and (max-width: 720px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/*vista tablet dormitorio y baño*/
-@media screen and (min-width: 720px) and (max-width: 1024px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/*vista mobile Acerca de*/
-@media screen and (min-width: 320px) and (max-width: 720px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 /*vista mobile Contacto*/
 @media screen and (min-width: 320px) and (max-width: 940px) {
     .inputContact {
         margin-left: 25%;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
     }
 }
